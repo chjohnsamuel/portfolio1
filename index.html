@@ -3,75 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Choppala John Samuel - Resume</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      background: #f3f3f3;
-    }
-
-    .left {
-      width: 30%;
-      background-color: #f0e9f1;
-      padding: 20px;
-      color: #3a1c40;
-      box-sizing: border-box;
-    }
-
-    .left h2 {
-      color: #3a1c40;
-      border-bottom: 2px solid #3a1c40;
-      padding-bottom: 5px;
-      margin-top: 30px;
-    }
-
-    .right {
-      width: 70%;
-      background-color: #ffffff;
-      padding: 30px;
-      box-sizing: border-box;
-    }
-
-    .header {
-      background-color: #4b234b;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .section {
-      margin: 30px 0;
-    }
-
-    .section h3 {
-      border-bottom: 1px solid #4b234b;
-      padding-bottom: 5px;
-      color: #4b234b;
-    }
-
-    .section ul {
-      list-style-type: square;
-      padding-left: 20px;
-    }
-
-    .profile-img {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flat_landscape_icon.svg/1200px-Flat_landscape_icon.svg.png') center/cover;
-      margin: 0 auto 20px;
-    }
-
-    .contact-item {
-      margin-bottom: 10px;
-    }
-
-    b {
-      color: #000;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -79,9 +11,9 @@
     <div class="profile-img"></div>
     
     <h2>Contact</h2>
-    <div class="contact-item">📞 Phone: <br><b>+91-6035717745</b></div>
-    <div class="contact-item">📧 Email: <br><b>johnsamuel05.ch@gmail.com</b></div>
-    <div class="contact-item">📍 Address: <br><b>WME Church Campus, Ranasthala Jr. Puram, Srikakulam, Andhra Pradesh</b></div>
+    <div class="contact-item">📞 Phone:<br><b>+91-6035717745</b></div>
+    <div class="contact-item">📧 Email:<br><b>johnsamuel05.ch@gmail.com</b></div>
+    <div class="contact-item">📍 Address:<br><b>WME Church Campus, Ranasthala Jr. Puram, Srikakulam, Andhra Pradesh</b></div>
     
     <h2>Soft Skills</h2>
     <ul>
@@ -146,7 +78,12 @@
         <li>Web Development – [Motion Cut]</li>
       </ul>
     </div>
+
+    <!-- Example JS interaction -->
+    <button onclick="showMessage()">Click for Greeting</button>
+    <p id="greeting"></p>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
